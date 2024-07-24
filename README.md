@@ -15,13 +15,13 @@ This project demonstrates the implementation of an ADS-B (Automatic Dependent Su
 ### Clone for GNU Radio 3.8
 
 ```bash
-$ git clone https://github.com/ujjwalraj/ads-b
+$ git clone https://github.com/ujjwalrraj/ADS-B_Receiver.git
 ```
 
 ### Clone for GNU Radio 3.7
 
 ```bash
-$ git clone -b maint-3.7 https://github.com/ujjwalrraj/ads-b
+$ git clone -b maint-3.7 https://github.com/ujjwalrraj/ADS-B_Receiver.git
 ```
 
 ## Features
