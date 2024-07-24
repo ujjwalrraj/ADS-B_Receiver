@@ -1,4 +1,4 @@
-## ADS-B Receiver using ADALM-PlutoSDR and GNU-Radio Companion
+# ADS-B Receiver using ADALM-PlutoSDR and GNU-Radio Companion
 # Overview
 This project demonstrates the implementation of an ADS-B (Automatic Dependent Surveillance-Broadcast) receiver using ADALM-PlutoSDR and GNU-Radio Companion. ADS-B is a surveillance technology in which an aircraft determines its position via satellite navigation and periodically broadcasts it, enabling it to be tracked.
 
@@ -48,7 +48,7 @@ $ git clone -b maint-3.7 https://github.com/ujjwalrraj/ads-b
 
 There is an example GNU Radio Companion (`.grc`) flowgraph located at `gr-adsb/examples/adsb_rx.grc`. To use it, first open GNU Radio Companion `$ gnuradio-companion` and then open the `.grc` file.
 
-![ADS-B Receiver Flowgraph](https://github.com/mhostetter/gr-adsb/blob/master/docs/adsb_rx.png)
+![ADS-B Receiver Flowgraph](https://github.com/ujjwalrraj/ADS-B-Receiver/Working/flowgraph.png)
 
 Example "Brief" output:
 
