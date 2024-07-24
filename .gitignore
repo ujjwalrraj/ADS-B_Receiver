@@ -1,0 +1,4 @@
+/build/**
+/examples/*.py
+*.fc32
+.env
