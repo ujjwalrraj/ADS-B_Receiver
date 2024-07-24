@@ -1,45 +1,16 @@
-##ADS-B Receiver using ADALM-PlutoSDR and GNU-Radio Companion
-#Overview
+## ADS-B Receiver using ADALM-PlutoSDR and GNU-Radio Companion
+# Overview
 This project demonstrates the implementation of an ADS-B (Automatic Dependent Surveillance-Broadcast) receiver using ADALM-PlutoSDR and GNU-Radio Companion. ADS-B is a surveillance technology in which an aircraft determines its position via satellite navigation and periodically broadcasts it, enabling it to be tracked.
 
-#Features
+# Features
 1. Real-time aircraft tracking: The receiver captures and decodes ADS-B signals broadcasted by aircraft.
 2. Uses ADALM-PlutoSDR: A versatile, portable SDR (Software Defined Radio) device that facilitates a wide range of wireless communications experiments.
 3. Implemented in GNU-Radio Companion: A graphical tool for building complex signal processing flowgraphs.
 
-#Requirements
-ADALM-PlutoSDR
-GNU-Radio Companion
-Antenna compatible with ADS-B frequencies (1090 MHz)
+# Requirements
+1. ADALM-PlutoSDR
+2. GNU-Radio Companion
 
-## Fork Note
-
-This fork was made to address a couple errors I hit when running with GNURadio 3.8 and newer socketio libraries.
-
-I also changed the example to run with `RTL-SDR` since that was what I had.
-
-Here's the `pip freeze` I ended up with to get the webserver working:
-
-```
-bidict==0.21.2
-click==8.0.0
-Flask==2.0.0
-Flask-SocketIO==5.0.3
-gevent==21.1.2
-gevent-websocket==0.10.1
-greenlet==1.1.0
-itsdangerous==2.0.0
-Jinja2==3.0.0
-MarkupSafe==2.0.0
-numpy==1.20.3
-python-engineio==4.2.0
-python-socketio==5.3.0
-pyzmq==22.0.3
-Werkzeug==2.0.0
-zmq==0.0.0
-zope.event==4.5.0
-zope.interface==5.4.0
-```
 
 ### Clone for GNU Radio 3.8
 
