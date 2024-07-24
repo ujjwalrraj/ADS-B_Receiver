@@ -48,7 +48,7 @@ $ git clone -b maint-3.7 https://github.com/ujjwalrraj/ads-b
 
 There is an example GNU Radio Companion (`.grc`) flowgraph located at `gr-adsb/examples/adsb_rx.grc`. To use it, first open GNU Radio Companion `$ gnuradio-companion` and then open the `.grc` file.
 
-![ADS-B Receiver Flowgraph](https://github.com/ujjwalrraj/ADS-B-Receiver/Working/flowgraph.png)
+![ADS-B Receiver Flowgraph](Working/flowgraph.png)
 
 Example "Brief" output:
 
